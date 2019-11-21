@@ -1,4 +1,8 @@
+spring:
+  session:
+    store-type: redis
 server:
+  address: 127.0.0.1
   port: 9000
 logging:
   level:
